@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ruraldrone - pharmacy delivery nav</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <h1>ruraldrone</h1>
+    <p>click anywhere on the map - that's the delivery address. we find the
+    nearest pharmacy that stocks what you need and fly the drone.</p>
+</header>
+
+<div id="controls">
+    <label>need:
+        <select id="need">
+            <option value="">anything</option>
+            <option>insulin</option>
+            <option>amoxicillin</option>
+            <option>epi pen</option>
+            <option>prenatal vitamins</option>
+            <option>blood pressure</option>
+            <option>allergy</option>
+        </select>
+    </label>
+    <span id="hint">click the map to set the drop point</span>
+</div>
+
+<main>
+    <div id="map"></div>
+    <div id="right">
+        <div id="view3d"></div>
+        <div id="panel">
+            <div class="stat"><span>status</span><b id="st-status">idle</b></div>
+            <div class="stat"><span>leg</span><b id="st-leg">-</b></div>
+            <div class="stat"><span>altitude</span><b id="st-alt">-</b></div>
+            <div class="stat"><span>battery</span><b id="st-batt">-</b></div>
+            <div class="stat"><span>distance</span><b id="st-dist">-</b></div>
+            <div class="stat"><span>eta</span><b id="st-eta">-</b></div>
+            <div class="bar"><div id="st-bar"></div></div>
+        </div>
+    </div>
+</main>
+
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
