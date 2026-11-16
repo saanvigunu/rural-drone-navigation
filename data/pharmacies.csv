@@ -1,0 +1,13 @@
+id,name,town,lat,lon,stock
+rx01,Pine Ridge Family Pharmacy,Pine Ridge,44.512,-72.381,"insulin; amoxicillin; prenatal vitamins; blood pressure"
+rx02,Cedar Hollow Drug,Cedar Hollow,44.488,-72.244,"amoxicillin; insulin; allergy"
+rx03,Maple Grove Apothecary,Maple Grove,44.613,-72.512,"prenatal vitamins; insulin; epi pen"
+rx04,Juniper Flats Pharmacy,Juniper Flats,44.392,-72.193,"blood pressure; amoxicillin; insulin"
+rx05,Whitetree Health Mart,Whitetree,44.701,-72.402,"insulin; epi pen; allergy"
+rx06,Bear Creek Pharmacy,Bear Creek,44.445,-72.588,"amoxicillin; prenatal vitamins"
+rx07,Stonebridge Drug Co,Stonebridge,44.562,-72.655,"blood pressure; insulin; amoxicillin; epi pen"
+rx08,Elk Meadow Pharmacy,Elk Meadow,44.673,-72.301,"prenatal vitamins; allergy; amoxicillin"
+rx09,Fox Hollow Remedies,Fox Hollow,44.358,-72.472,"insulin; blood pressure"
+rx10,Aspen Corner Pharmacy,Aspen Corner,44.594,-72.156,"amoxicillin; epi pen; insulin; allergy"
+rx11,Larch Valley Drug,Larch Valley,44.732,-72.549,"blood pressure; prenatal vitamins; insulin"
+rx12,Briar Patch Pharmacy,Briar Patch,44.411,-72.331,"allergy; amoxicillin; insulin; epi pen"
